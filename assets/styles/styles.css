@@ -9,3 +9,42 @@
 a{
     color: unset;
 }
+
+header{
+    background-image: url("../images/hero.png");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+/* Header Styles */
+
+/* Navbar Styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav .nav-item{
+    color: #fff;
+    margin: 0 10px;
+}
+
+nav .container{
+    display: flex;
+}
+
+nav div.app{
+    font-size: .9rem;
+    font-weight: 900;
+}
+
+nav div.container{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
