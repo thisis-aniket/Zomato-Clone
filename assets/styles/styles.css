@@ -1,136 +1,170 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    border: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
 }
 
-*:focus{
-    outline: none;
+*:focus {
+  outline: none;
 }
 
-a{
-    color: unset;
+a {
+  color: unset;
 }
 
-header{
-    background-image: url("../images/hero.png");
-    background-position: center;
-    background-size: cover;
-    height: 60vh;
+header {
+  background-image: url("../images/hero.png");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
 }
 
-header div.search-box i{
-    margin: 10px;
+header div.search-box i {
+  margin: 10px;
 }
 
 /* Header Styles */
 
 /* Navbar Styles */
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 0;
-    width: 90%;
-    margin: 0 auto;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  width: 90%;
+  margin: 0 auto;
 }
 
-nav .nav-item{
-    color: #fff;
-    margin: 0 10px;
+nav .nav-item {
+  color: #fff;
+  margin: 0 10px;
 }
 
-nav .container{
-    display: flex;
+nav .container {
+  display: flex;
 }
 
-nav div.app{
-    font-size: .9rem;
-    font-weight: 900;
+nav div.app {
+  font-size: 0.9rem;
+  font-weight: 900;
 }
 
-nav div.container{
-    font-size: 1.2rem;
-    font-weight: 200;
+nav div.container {
+  font-size: 1.2rem;
+  font-weight: 200;
 }
 
-header div.content{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 70%;
-    margin: 0 auto;
+header div.content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70%;
+  margin: 0 auto;
 }
 
-header img.logo{
-    width: 300px;
+header img.logo {
+  width: 300px;
 }
 
-header h1{
-    font-size: 2.5rem;
-    color: #fff;
-    font-weight: 400;
+header h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 400;
 }
 
 /* header content */
 
-header div.search-box{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #fff;
-    width: 70%;
-    border-radius: 10px;
-    /* font-size: 1.2rem; */
+header div.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 70%;
+  border-radius: 10px;
+  /* font-size: 1.2rem; */
 }
 
-header div.search-box div.select i{
-    color: #F57082;
+header div.search-box div.select i {
+  color: #f57082;
 }
 
 header div.search-box div.input {
-    color: #828282b7;
+  color: #828282b7;
 }
 
-header div.search-box div.separator{
-    height: 60%;
-    background-color: #8282829b;
-    width: 2px;
-    margin-left: 0;
-    margin-right: 0;
+header div.search-box div.separator {
+  height: 60%;
+  background-color: #8282829b;
+  width: 2px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-header div.search-box div.input{
-    flex-grow: 80;
-    margin: 0 10px;
+header div.search-box div.input {
+  flex-grow: 80;
+  margin: 0 10px;
 }
 
-header div.search-box div.input input{
-    width: 100%;
-    font-size: 1rem;
-    font-weight: 300;
-    margin-left: 20px;
+header div.search-box div.input input {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-left: 20px;
 }
 
-header div.search-box select{
-    font-size: 1rem;
+header div.search-box select {
+  font-size: 1rem;
 }
 
-div.search-box div{
-    display: flex;
-    align-items: center;
-    height: 50px;
-    margin: 0 50px;
+div.search-box div {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin: 0 50px;
 }
 
-div.search-box div.select{
-    margin: 0 20px;
+div.search-box div.select {
+  margin: 0 20px;
 }
 
-header div.search-box div.select{
-    font-size: 1rem;
+header div.search-box div.select {
+  font-size: 1rem;
+}
+
+/* Nearby Section */
+section.nearby {
+  min-height: 40vh;
+}
+
+section.nearby div.container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+}
+
+section.nearby div.container h3 {
+  font-size: 2.2rem;
+  font-weight: unset;
+}
+
+section.nearby div.box {
+  max-width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 15px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin-top: 5%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+section.nearby div.box:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
 }
