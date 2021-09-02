@@ -258,7 +258,7 @@ section.app div.form div.download small{
 }
 
 section.options{
-    height: 60vh;
+    height: 70vh;
 }
 
 section.options div.container{
@@ -276,7 +276,7 @@ section.options div.container h3{
 }
 
 section.options div.container div{
-    margin-top: 40px;
+    margin: 40px 0;
 }
 
 section.options div.container div ul{
@@ -291,4 +291,58 @@ section.options div.container div ul li{
     color: grey;
     font-size: 1.1rem;
     font-weight: 100;
+}
+
+/* Footer */
+footer{
+  height: 60vh;
+  background-color: #ebe5e5;
+}
+
+footer div.footer-navbar{
+  display: flex;
+  height: 20%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 70px;
+}
+
+footer div.footer-navbar img{
+  max-width: 200px;
+  max-height: 50px;
+}
+
+footer div.footer-navbar div img{
+  max-width: 150px;
+}
+
+footer div.lists{
+  display: flex;
+  max-width: 80%;
+  justify-content: space-between;
+  margin: 40px auto;
+  flex-wrap: wrap;
+}
+footer div.lists ul li.heading{
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+footer div.lists ul li{
+  list-style-type: none;
+  margin: 5px 0;
+  color: #393737;
+  line-height: 1.5rem;
+}
+
+footer ul ul.nested-ul{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+footer div.credits{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
